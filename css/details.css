@@ -134,12 +134,16 @@
 	/*购买和加入购物车样式*/
 	.operate_btn{
 		height:40px;
-		margin-top:20px;
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		padding: 0 1px;
 	}
 	
 	.buy_btn, .add_cart{
 		display:inline-block;
-		width:41%;
+		width:50%;
 		height:38px;
 		line-height:38px;
 		text-align:center;
@@ -147,7 +151,6 @@
 		font-size:14px;
 		color:#c40000;
 		background-color:#ffeded;
-		margin-left: 6%;
 		float: left;
 	}
 	
