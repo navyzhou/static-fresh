@@ -106,6 +106,7 @@
 	
 	.goods_list li:hover{
 		outline:2px solid gold;
+		opacity: 0.6;
 	}
 	
 	.goods_list li h4{
